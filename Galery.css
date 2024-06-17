@@ -1,0 +1,22 @@
+.container{
+         background-color: slategray;
+         padding-top: 10px;    
+         padding-right: 20px;  
+         padding-bottom: 30px; 
+         padding-left: 40px; 
+         font-family: 'Poppins', sans-serif;
+         font-size:larger;
+         font-style:italic;
+         border-radius: 5px;
+         
+         
+}
+body{
+          color: aquamarine;
+          background-color: rgb(42, 42, 54);
+}
+img{
+          box-shadow:
+          0 0 10px rgba(0, 0, 0, .8)
+          
+}

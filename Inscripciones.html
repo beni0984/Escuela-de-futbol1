@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>Escuela de Futbol Rambo de Leon </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="Inscripcion.css">
+    
+<body>
+          <form action="#" method="post">
+                    <div class="form-section">
+                        
+                        <h2>Información del Jugador</h2>
+                       
+                        <div class="form-group">
+                            <label for="nombre-jugador">Nombre Completo:</label>
+                            <input type="text" id="nombre-jugador" name="nombre-jugador" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="edad">Edad:</label>
+                            <input type="number" id="edad" name="edad" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="genero">Género:</label>
+                            <select id="genero" name="genero" required>
+                                <option value="masculino">Masculino</option>
+                                <option value="femenino">Femenino</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="direccion">Dirección:</label>
+                            <input type="text" id="direccion" name="direccion" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ciudad">Ciudad:</label>
+                            <input type="text" id="ciudad" name="ciudad" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="codigo-postal">Código Postal:</label>
+                            <input type="text" id="codigo-postal" name="codigo-postal" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo-jugador">Correo Electrónico:</label>
+                            <input type="email" id="correo-jugador" name="correo-jugador" required>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <h2>Información del Padre/Madre/Tutor</h2>
+                        <div class="form-group">
+                            <label for="nombre-tutor">Nombre Completo:</label>
+                            <input type="text" id="nombre-tutor" name="nombre-tutor" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="relacion">Relación con el Jugador:</label>
+                            <input type="text" id="relacion" name="relacion" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono-tutor">Teléfono:</label>
+                            <input type="tel" id="telefono-tutor" name="telefono-tutor" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo-tutor">Correo Electrónico:</label>
+                            <input type="email" id="correo-tutor" name="correo-tutor" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="direccion-tutor">Dirección (si es diferente a la del jugador):</label>
+                            <input type="text" id="direccion-tutor" name="direccion-tutor">
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <h2>Categoría de Inscripción</h2>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="escuela-infantil" name="categoria" value="Escuela Infantil">
+                            <label for="escuela-infantil">Escuela Infantil (4-8 años)</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="formacion-basica" name="categoria" value="Formación Básica">
+                            <label for="formacion-basica">Formación Básica (9-12 años)</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="especializacion" name="categoria" value="Especialización">
+                            <label for="especializacion">Especialización (13-16 años)</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="alto-rendimiento" name="categoria" value="Alto Rendimiento">
+                            <label for="alto-rendimiento">Alto Rendimiento (17-21 años)</label>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <h2>Experiencia Deportiva</h2>
+                        <div class="form-group">
+                            <label for="experiencia-previa">¿Ha participado previamente en alguna escuela de fútbol?</label>
+                            <select id="experiencia-previa" name="experiencia-previa" required>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="detalle-experiencia">Si la respuesta es "Sí", por favor indique el nombre de la escuela y la duración de la participación:</label>
+                            <textarea id="detalle-experiencia" name="detalle-experiencia"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <h2>Salud y Condición Física</h2>
+                        <div class="form-group">
+                            <label for="condicion-medica">¿Tiene el jugador alguna condición médica o alergias que debamos conocer?</label>
+                            <select id="condicion-medica" name="condicion-medica" required>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="detalle-condicion">Si la respuesta es "Sí", por favor describa:</label>
+                            <textarea id="detalle-condicion" name="detalle-condicion"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="restriccion-fisica">¿El jugador tiene alguna restricción física que limite su participación en actividades deportivas?</label>
+                            <select id="restriccion-fisica" name="restriccion-fisica" required>
+                                <option value="si">Sí</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="detalle-restriccion">Si la respuesta es "Sí", por favor describa:</label>
+                            <textarea id="detalle-restriccion" name="detalle-restriccion"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <h2>Autorizaciones</h2>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="autorizacion-fotos" name="autorizacion-fotos" value="si">
+                            <label for="autorizacion-fotos">Autorizo a la Escuela de Fútbol "Talento Futuro" a utilizar fotos y videos del jugador para fines promocionales y educativos.</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="acepto-terminos" name="acepto-terminos" value="si" required>
+                            <label for="acepto-terminos">Acepto los términos y condiciones de la escuela.</label>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <div class="form-group">
+                            <label for="firma">Firma del Padre/Madre/Tutor:</label>
+                            <input type="text" id="firma" name="firma" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fecha">Fecha:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <h2>Documentación Requerida</h2>
+                        <div class="form-group">
+                            <p>Por favor, adjunte los siguientes documentos:</p>
+                            <ul>
+                                <li>Copia del documento de identidad del jugador</li>
+                                <li>Certificado médico reciente</li>
+                                <li>Foto tamaño carnet del jugador</li>
+                                <li>Copia del documento de identidad del Padre/Madre/Tutor</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                       Para el elemento "Modo de Pago" en HTML, puedes usar un grupo de radio buttons para que el usuario seleccione el método de pago y luego agregar una sección adicional para indicar instrucciones específicas para la transferencia bancaria. Aquí te muestro cómo hacerlo:
+            
+            ```html
+            <div class="form-section">
+                <h2>Modo de Pago</h2>
+                <div class="form-group">
+                    <label for="metodo-pago">Selecciona el método de pago:</label>
+                    <input type="radio" id="efectivo" name="metodo-pago" value="efectivo">
+                    <label for="efectivo">Efectivo</label>
+                    <input type="radio" id="transferencia" name="metodo-pago" value="transferencia">
+                    <label for="transferencia">Transferencia Bancaria</label>
+                    <input type="radio" id="tarjeta" name="metodo-pago" value="tarjeta">
+                    <label for="tarjeta">Tarjeta de Crédito/Débito</label>
+                </div>
+            
+                <div id="transferencia-info" style="display: none;">
+                    <p>Para transferencia bancaria, por favor envíe el comprobante de pago a <a href="mailto:correo@example.com">correo@example.com</a>.</p>
+                </div>
+            </div>     
+            <a href="/Inicio.index.html" class="boton-inicio">Inicio</a> <!-- Enlace al inicio con clase CSS -->
+</body>
+<!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/custom.js"></script>
+ 
+</html>
